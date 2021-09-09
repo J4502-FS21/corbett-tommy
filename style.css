@@ -2,3 +2,12 @@ body{
   background: blue;
   text-align: center;
 }
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  font-style: italic;
+}
