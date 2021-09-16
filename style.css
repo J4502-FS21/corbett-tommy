@@ -1,4 +1,9 @@
 body{
   background: gold;
-  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 3rem;
 }
+
+img {width: 50%;}
