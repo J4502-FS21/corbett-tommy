@@ -1,5 +1,5 @@
 body{
-  background: 686963;
+  background: #686963;
   width: 90%;
   max-width: 600px;
   margin: auto;
@@ -15,6 +15,10 @@ h2{
 }
 p{
   font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+nav{
+  font-family: 'Roboto Mono', monospace;
   font-weight: 300;
 }
 img {width: 50%;}
