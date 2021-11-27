@@ -7,6 +7,15 @@ body{
   margin: auto;
   margin-top: 3rem;
 }
+#content {
+  display: block;
+  width: 90%;
+  max-width: 1000px;
+  margin:auto;
+}
+section {
+  align-content: center;
+}
 h1{
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
@@ -25,11 +34,22 @@ li{
   padding: 10px;
   color: #DB5461;
 }
-img {width: 50%;}
+img {width: auto;}
 nav{
   background: #3D5467;
+  height: 9rem;
 }
-ul{
+nav ul{
   list-style-type: none;
   margin: 0;
-  padding: 0;}
+  padding: 0;
+}
+nav li {
+  display: block;
+  width: 90%;
+  height: 33.333333%;
+  float: left;
+  font-size: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
